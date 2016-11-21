@@ -1,0 +1,7 @@
+.idea/
+*.iml
+
+out/
+
+amps.csv
+songs.csv
