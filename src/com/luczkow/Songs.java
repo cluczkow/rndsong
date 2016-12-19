@@ -42,12 +42,10 @@ class Songs {
                 n += song.getWeight();
                 if (rnd < n) {
                     rndSong = song;
+                    songs.remove(song);
+                    weight -= rndSong.getWeight();
                     break;
                 }
-            }
-
-            if (rndSong != null) {
-                weight -= rndSong.getWeight();
             }
         }
 
